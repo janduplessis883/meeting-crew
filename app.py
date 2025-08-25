@@ -1,4 +1,5 @@
 import streamlit as st
+import sqlite3
 from crewai import Agent, Task, Crew, Process, LLM
 from dotenv import load_dotenv
 import os
